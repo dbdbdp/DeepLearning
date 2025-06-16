@@ -17,7 +17,7 @@ class MarkerAlign(Node):
         self.centering_pause_duration = 0.5
         self.ui_trigger_pitch_deg = 20.0
         self.sequence_timeout = 40.0
-        self.marker_timeout = 1.0  # 마커 데이터 최신성 타임아웃 (초)
+        self.marker_timeout = 1.0  # 마커 데이터 최신성 타임아웃-초
 
         # 상태 변수
         self.mode = 'WAIT'
